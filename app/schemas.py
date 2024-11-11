@@ -24,6 +24,7 @@ class CategoryBase(BaseModel):
     name: str
     monthly_target: int
     unit: str
+    user_id: int
 
 class CategoryCreate(CategoryBase):
     pass
@@ -50,7 +51,7 @@ class ExpenseCreate(ExpenseBase):
 class ExpenseResponse(ExpenseBase):
     id: int
     user_id: int
-    category_id: int
+    category: CategoryBase
 
     class Config:
         orm_mode = True
