@@ -1,9 +1,17 @@
-#root {
-  max-width: 1280px;
+body, html #root {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
+
+.App {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  height: 100%; /* Use the full height of the screen */
+}
+
 
 .logo {
   height: 6em;
@@ -46,4 +54,11 @@
   height: 150px; /* Adjust the height */
   padding: 10px; /* Adjust padding for content */
   margin: auto;  /* Center the card horizontally */
+}
+
+.chart-container {
+  width: 100%; /* Full width of the column */
+  max-width: 300px; /* Limit the size */
+  margin: 0 auto; /* Center horizontally in the column */
+  padding: 10px; /* Optional: Add padding around the chart */
 }
