@@ -7,8 +7,8 @@ const Index = () => {
     <Container className="mt-5">
       <Row className="justify-content-md-center">
         <Col md="6" className="text-center">
-          <h1>Welcome to My App</h1>
-          <p>Please choose an option below to proceed.</p>
+          <h1>Welcome to Fintracker</h1>
+          <p>Your personal finance tracker</p>
           <Link to="/login">
             <Button variant="primary" className="m-2">
               Login
