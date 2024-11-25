@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from "react";
-import { Doughnut } from "react-chartjs-2";
-import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
+import { Bar, Doughnut } from "react-chartjs-2";
+import { Chart, ArcElement, Tooltip, Legend, CategoryScale, BarElement, Title, LinearScale } from "chart.js";
 import axios from "axios"
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import NavigationBar from "./navbar";
 import Footer from "./footer";
 import AddCategory from "./AddCategory";
-Chart.register(ArcElement, Tooltip, Legend);
+Chart.register(ArcElement, Tooltip, Legend, LinearScale, CategoryScale, BarElement, Title);
 
 const apiClient = axios.create({
   baseURL: import.meta.env.VITE_BACKEND_SERVICE, // Assuming your backend API base URL
@@ -106,6 +106,7 @@ const UserDashboard = () => {
         </div>
         </Col>
         <Col md={8}>
+          <Bar data={data}/>
         </Col>
         </Row>
         <Row>
