@@ -1,4 +1,4 @@
-# fin-tracker
+# Fintracker
 Personal Finance Tracking Application
 
 
