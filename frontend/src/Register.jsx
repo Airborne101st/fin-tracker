@@ -53,7 +53,7 @@ const Register = () => {
   };
 
   return (
-    <Container className="mt-5">
+    <Container className="mt-5" style={{maxWidth: "40%"}}>
       <Row className="justify-content-md-center">
         <Col md="12">
           <Card>
@@ -63,23 +63,23 @@ const Register = () => {
             <Card.Body>
               {message && <Alert variant={message.type}>{message.text}</Alert>}
               <Form onSubmit={handleSubmit}>
+              <Form.Group controlId="formFullname" className="mb-3">
+                  <Form.Control
+                    type="text"
+                    name="full_name"
+                    placeholder="Enter Full Name"
+                    value={formData.full_name}
+                    onChange={handleChange}
+                    required
+                  />
+                </Form.Group>
+
                 <Form.Group controlId="formUsername" className="mb-3">
                   <Form.Control
                     type="text"
                     name="username"
                     placeholder="Enter username"
                     value={formData.username}
-                    onChange={handleChange}
-                    required
-                  />
-                </Form.Group>
-
-                <Form.Group controlId="formFullname" className="mb-3">
-                  <Form.Control
-                    type="text"
-                    name="full_name"
-                    placeholder="Enter Full Name"
-                    value={formData.full_name}
                     onChange={handleChange}
                     required
                   />

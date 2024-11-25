@@ -63,7 +63,7 @@ const Login = () => {
   
 
   return (
-    <Container className="mt-5">
+    <Container className="mt-5" style={{maxWidth: "40%"}}>
       <Row className="justify-content-md-center">
         <Col md="12">
           <Card>
