@@ -18,13 +18,6 @@ This is a **Full Stack Expense Tracker Application** that helps users manage the
 
 ---
 
-## 🚀 **Demo**
-
-[Live Demo](#) *(Provide a link if deployed, e.g., Netlify, Vercel, or AWS)*  
-![Application Screenshot](link-to-screenshot.png) *(Replace with an actual screenshot)*
-
----
-
 ## 🛠️ **Tech Stack**
 
 ### **Frontend**:
