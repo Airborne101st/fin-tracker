@@ -112,7 +112,7 @@ This is a **Full Stack Expense Tracker Application** that helps users manage the
 ![Home Page](link-to-screenshot.png)
 
 ### Bar Chart with Targets:
-![Bar Chart](link-to-screenshot.png)
+![Bar Chart](fintracker_dashboard.png)
 
 ---
 
