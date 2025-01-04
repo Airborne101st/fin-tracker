@@ -1,4 +1,4 @@
-# fin-tracker
+# Fintracker
 Personal Finance Tracking Application
 
 
@@ -15,13 +15,6 @@ This is a **Full Stack Expense Tracker Application** that helps users manage the
 - **Expense Tracking**: Keep a record of expenses and their details.
 - **Bar Charts**: Visualize spending trends with targets highlighted on the chart.
 - **Responsive UI**: Designed to work seamlessly on both desktop and mobile devices.
-
----
-
-## 🚀 **Demo**
-
-[Live Demo](#) *(Provide a link if deployed, e.g., Netlify, Vercel, or AWS)*  
-![Application Screenshot](link-to-screenshot.png) *(Replace with an actual screenshot)*
 
 ---
 
@@ -108,11 +101,14 @@ This is a **Full Stack Expense Tracker Application** that helps users manage the
 
 ## 🖼️ **Screenshots**
 
-### Home Page:
-![Home Page](link-to-screenshot.png)
-
 ### Bar Chart with Targets:
-![Bar Chart](link-to-screenshot.png)
+![Bar Chart](fintracker_dashboard.png)
+
+### Category Page:
+![Bar Chart](fintracker_category.png)
+
+### Expenses Page:
+![Bar Chart](fintracker_expenses.png)
 
 ---
 
